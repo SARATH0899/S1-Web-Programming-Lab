@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>mouseover</title>
+</head>
+<body align="center">
+    <h1 id="hello"> <b> WELCOME TO WEB PROGRAMING </b> </h1>
+     <img src="insta.png" height="500" width="500" id="hai">
+</body>
+<script>
+    document.getElementById("hai").onmouseover = function()
+    {
+        mouseover()
+    };
+    document.getElementById("hai").onmouseout = function()
+    {
+        mouseout()
+    };
+    function mouseover()
+    {
+        document.getElementById("hello").innerHTML = "WHATSAPP";
+        document.getElementById("hai").src ="whatsapp.png";
+    }
+    function mouseout()
+    {
+        document.getElementById("hello").innerHTML = "INSTAGRAM";
+        document.getElementById("hai").src ="instagram.png"
+    }
+</script>
+</html>

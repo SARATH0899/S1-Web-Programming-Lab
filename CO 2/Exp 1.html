@@ -1,0 +1,54 @@
+<html>
+<title> Math Function </title>
+<hr>
+<h1 style="color:red" align=center> JAVASCRIPT MATH FUNCTIONS </h1>
+<hr>
+<body bgcolor="lightgreen">
+<p style="color:violet"><b> This is a page showing Some of the Math Functions used in Javascript for simple calculations...</p>
+
+<p id="abs_fun"></p>
+
+<p id="ceil_fun"></p>
+
+<p id="floor_fun"></p>
+
+<p id="round_fun"></p>
+
+<p id="power_fun"></p>
+
+<p id="sqrt_fun"></p>
+
+Minimum Value: <p id="min_fun"></p>
+
+Maximum Value: <p id="max_fun"></p>
+
+<script>
+
+document.getElementById("abs_fun").innerHTML = Math.abs(-5.6); 
+
+document.getElementById("ceil_fun").innerHTML = Math.ceil(7.8);
+
+document.getElementById("floor_fun").innerHTML = Math.floor(5.8);
+
+document.getElementById("round_fun").innerHTML = Math.round(7.6);
+
+document.getElementById("power_fun").innerHTML = Math.pow(8,2);
+
+document.getElementById("sqrt_fun").innerHTML = Math.sqrt(64);
+
+document.getElementById("min_fun").innerHTML =
+Math.min(40, 87, 55, 25, 78, 14);
+
+document.getElementById("max_fun").innerHTML =
+Math.max(50, 90, 55, 25, 78, 14);
+
+document.write(Math.PI); 
+
+document.write("<br>");
+document.write("<br>");
+
+document.write(Math.floor(Math.random()*10000));
+
+</script>
+</body>
+</html>
